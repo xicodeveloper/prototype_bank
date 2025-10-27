@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Plaid Credentials - IMPORTANT!
+.env
+
+# Output files
+*.csv
+transaction_report.csv
+plaid_transaction_report.csv
+
+# OS
+.DS_Store
+Thumbs.db
