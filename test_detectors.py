@@ -327,7 +327,7 @@ class TestIntegration(unittest.TestCase):
         self.assertGreater(len(stress_indicators), 0)
         self.assertGreater(risk_score, 0)
         
-        print("\n✅ INTEGRATION TEST PASSED")
+        print("\nINTEGRATION TEST PASSED")
         print("="*60 + "\n")
 
 
@@ -361,11 +361,11 @@ def run_tests():
     print(f"Errors: {len(result.errors)}")
     
     if result.wasSuccessful():
-        print("\n✅ ALL TESTS PASSED!")
+        print("\nALL TESTS PASSED!")
         print("="*70 + "\n")
         return 0
     else:
-        print("\n❌ SOME TESTS FAILED")
+        print("\nSOME TESTS FAILED")
         print("="*70 + "\n")
         return 1
 
